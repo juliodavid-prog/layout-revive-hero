@@ -143,7 +143,7 @@ function Home() {
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-3">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
           <Logo className="h-20 w-auto" />
           <nav className="hidden items-center gap-7 text-sm font-medium lg:flex">
             <a href="#" className="text-primary">Home</a>
