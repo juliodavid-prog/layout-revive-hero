@@ -177,13 +177,13 @@ function Home() {
             <Shield className="h-4 w-4" /> Desde 1974 Trabalhando e Colaborando com o Meio Ambiente
           </div>
           <h1 className="mt-6 max-w-3xl text-5xl font-bold leading-tight text-white lg:text-6xl">
-            Problemas com entupimento ou resíduos?
-            <br />
-            <span style={{ color: "var(--brand-lime)" }}>Resolva rápido.</span>
+            Problemas com <span style={{ color: "var(--brand-lime)" }}>limpeza industrial?</span>
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-white/90 lg:text-lg">
-            A Moderna Serviços é a parceira de confiança de residências, condomínios e indústrias
-            em Salvador e região para serviços de saneamento, desentupimento e limpeza técnica.
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/90 lg:text-lg">
+            A Moderna Serviços é a parceira de confiança que une agilidade, eficiência e
+            compromisso socioambiental para oferecer as melhores soluções em saneamento,
+            desentupimento e limpeza técnica para indústrias, condomínios e residências em
+            Salvador e região.
           </p>
         </div>
       </section>
