@@ -171,7 +171,8 @@ function Home() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <img src={hero} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 lg:py-32">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-xs font-medium text-white backdrop-blur">
             <Shield className="h-4 w-4" /> Desde 1974 Trabalhando e Colaborando com o Meio Ambiente
