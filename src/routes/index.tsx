@@ -1,16 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logo from "@/assets/site/logo.png";
 import hero from "@/assets/site/hero.jpg";
-import s1 from "@/assets/site/s1.jpg";
-import s2 from "@/assets/site/s2.jpg";
-
-import s4 from "@/assets/site/s4.jpg";
-import s5 from "@/assets/site/s5.jpg";
-import s6 from "@/assets/site/s6.jpg";
-import s7 from "@/assets/site/s7.jpg";
 import s8 from "@/assets/site/s8.jpg";
 import s9 from "@/assets/site/s9.jpg";
 import s10 from "@/assets/site/s10.jpg";
+import realDesentup from "@/assets/site/real-desentup.jpg.asset.json";
+import realInundacao from "@/assets/site/real-inundacao.jpg.asset.json";
+import realLavagem from "@/assets/site/real-lavagem.jpg.asset.json";
+import realGordura from "@/assets/site/real-gordura.jpg.asset.json";
+import realFossa from "@/assets/site/real-fossa.jpg.asset.json";
+import realTecnica from "@/assets/site/real-tecnica.jpg.asset.json";
 import {
   Phone,
   MessageCircle,
@@ -48,37 +47,32 @@ export const Route = createFileRoute("/")({
 
 const services = [
   {
-    img: s1,
+    img: realDesentup.url,
     title: "Desentupimento e Desobstrução",
     desc: "Entupiu? Não quebre pisos nem paredes antes de falar com a gente.",
   },
   {
-    img: s2,
+    img: realInundacao.url,
     title: "Esgotamentos de inundações, lama e lagoas",
     desc: "Chuvas fortes, vazamentos ou acidentes podem causar inundações desastrosas, gerando lama e risco à saúde.",
   },
   {
-    img: s4,
+    img: realLavagem.url,
     title: "Lavagem de galpões, pisos industriais e vias",
     desc: "Usamos caminhões com alto vácuo e hidrojateamento para lavar e sugar os resíduos ao mesmo tempo.",
   },
   {
-    img: s4,
-    title: "Lavagem de galpões, pisos industriais e vias",
-    desc: "Usamos caminhões com alto vácuo e hidrojateamento para lavar e sugar os resíduos ao mesmo tempo.",
-  },
-  {
-    img: s5,
+    img: realGordura.url,
     title: "Limpeza de caixas de gordura industriais",
     desc: "A caixa de gordura protege seu encanamento, mas quando fica cheia, o pesadelo começa.",
   },
   {
-    img: s6,
+    img: realFossa.url,
     title: "Limpeza de fossa séptica e sumidouro",
     desc: "Realizamos o esgotamento total com caminhões de super vácuo, transportando os resíduos com total segurança.",
   },
   {
-    img: s7,
+    img: realTecnica.url,
     title: "Limpeza técnica industrial",
     desc: "Limpeza de estruturas complexas, garantindo que sua produção volte a operar com eficiência máxima.",
   },
