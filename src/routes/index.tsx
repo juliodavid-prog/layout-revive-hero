@@ -3,7 +3,7 @@ import logo from "@/assets/site/logo.png";
 import hero from "@/assets/site/hero.jpg";
 import s1 from "@/assets/site/s1.jpg";
 import s2 from "@/assets/site/s2.jpg";
-import s3 from "@/assets/site/s3.jpg";
+
 import s4 from "@/assets/site/s4.jpg";
 import s5 from "@/assets/site/s5.jpg";
 import s6 from "@/assets/site/s6.jpg";
