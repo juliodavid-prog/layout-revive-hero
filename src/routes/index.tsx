@@ -58,9 +58,9 @@ const services = [
     desc: "Chuvas fortes, vazamentos ou acidentes podem causar inundações desastrosas, gerando lama e risco à saúde.",
   },
   {
-    img: s3,
-    title: "Hidrojateamento de alta performance",
-    desc: "O hidrojateamento utiliza jatos de água em alta e ultra pressão para destruir crostas, gordura e detritos que bloqueiam o fluxo.",
+    img: s4,
+    title: "Lavagem de galpões, pisos industriais e vias",
+    desc: "Usamos caminhões com alto vácuo e hidrojateamento para lavar e sugar os resíduos ao mesmo tempo.",
   },
   {
     img: s4,
