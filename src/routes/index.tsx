@@ -143,8 +143,6 @@ function Home() {
             <a href="#" className="text-primary">Home</a>
             <a href="#institucional" className="hover:text-primary">Quem Somos</a>
             <a href="#servicos" className="hover:text-primary">Serviços</a>
-            <a href="#" className="hover:text-primary">Equipamentos</a>
-            <a href="#" className="hover:text-primary">Blog</a>
             <a href="#contato" className="hover:text-primary">Contato</a>
           </nav>
           <div className="hidden items-center gap-4 text-sm font-medium md:flex">
