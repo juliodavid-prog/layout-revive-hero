@@ -410,12 +410,17 @@ function Home() {
 
       {/* WhatsApp float */}
       <a
-        href="https://wa.me/5571999799782"
+        href="https://wa.me/5571999799782?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="Fale conosco no WhatsApp"
-        className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white shadow-xl shadow-primary/40 transition-transform hover:scale-105"
+        className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl shadow-black/30 transition-transform hover:scale-105"
       >
-        <MessageCircle className="h-7 w-7" />
+        <svg viewBox="0 0 32 32" className="h-8 w-8" fill="currentColor" aria-hidden="true">
+          <path d="M19.11 17.39c-.28-.14-1.65-.81-1.9-.9-.26-.1-.44-.14-.63.14-.18.28-.72.9-.88 1.08-.16.18-.32.21-.6.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.63-1.52-.87-2.08-.23-.55-.46-.47-.63-.48l-.54-.01c-.18 0-.48.07-.74.35-.26.28-.97.95-.97 2.32 0 1.37 1 2.69 1.13 2.87.14.18 1.96 3 4.75 4.21.66.29 1.18.46 1.58.59.66.21 1.27.18 1.74.11.53-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.18-.53-.32zM16.02 5.33c-5.89 0-10.67 4.78-10.67 10.66 0 1.88.5 3.71 1.43 5.33L5.33 26.67l5.5-1.44a10.62 10.62 0 005.19 1.32h.01c5.88 0 10.67-4.78 10.67-10.66 0-2.85-1.11-5.53-3.12-7.55a10.6 10.6 0 00-7.56-3.12zm0 19.51h-.01a8.86 8.86 0 01-4.51-1.24l-.32-.19-3.26.86.87-3.18-.21-.33a8.86 8.86 0 01-1.36-4.74c0-4.9 3.99-8.88 8.89-8.88 2.37 0 4.61.92 6.28 2.6a8.83 8.83 0 012.6 6.29c0 4.9-3.99 8.88-8.97 8.88z"/>
+        </svg>
       </a>
+
     </div>
   );
 }
