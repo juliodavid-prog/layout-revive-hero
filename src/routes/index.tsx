@@ -1,15 +1,7 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import logo from "@/assets/site/logo.png";
 import hero from "@/assets/site/hero.jpg";
-import s8 from "@/assets/site/s8.jpg";
-import s9 from "@/assets/site/s9.jpg";
-import s10 from "@/assets/site/s10.jpg";
-import realDesentup from "@/assets/site/real-desentup.jpg.asset.json";
-import realInundacao from "@/assets/site/real-inundacao.jpg.asset.json";
-import realLavagem from "@/assets/site/real-lavagem.jpg.asset.json";
-import realGordura from "@/assets/site/real-gordura.jpg.asset.json";
-import realFossa from "@/assets/site/real-fossa.jpg.asset.json";
-import realTecnica from "@/assets/site/real-tecnica.jpg.asset.json";
+import { services } from "@/lib/services-data";
 import {
   Phone,
   MessageCircle,
