@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import logo from "@/assets/site/logo.png";
+import logoFooter from "@/assets/site/logo-footer.png";
 import hero from "@/assets/site/hero.jpg";
 import { services } from "@/lib/services-data";
 import {
