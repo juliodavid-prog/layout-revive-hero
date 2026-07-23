@@ -181,7 +181,7 @@ export const services: Service[] = [
   },
   {
     slug: "hidrojateamento",
-    img: hidrojateamento,
+    img: hidrojateamento.url,
     title: "Hidrojateamento de Alta e Ultra Pressão",
     desc: "Desobstrução, limpeza pesada e remoção de incrustações severas em tubulações e superfícies usando apenas o poder da água sob alta pressão.",
     heroTitle:
