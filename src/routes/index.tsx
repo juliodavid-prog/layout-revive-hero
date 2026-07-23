@@ -156,12 +156,13 @@ function Home() {
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-lg font-bold leading-snug">{svc.title}</h3>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">{svc.desc}</p>
-                <a
-                  href="#contato"
+                <Link
+                  to="/servicos/$slug"
+                  params={{ slug: svc.slug }}
                   className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
                 >
                   Saber Mais <ArrowRight className="h-4 w-4" />
-                </a>
+                </Link>
               </div>
             </article>
           ))}
