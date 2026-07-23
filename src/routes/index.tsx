@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import logo from "@/assets/site/logo.png";
+import logoFooter from "@/assets/site/logo-footer.png";
 import hero from "@/assets/site/hero.jpg";
 import { services } from "@/lib/services-data";
 import {
@@ -303,7 +304,7 @@ function Home() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-end gap-3">
-              <Logo className="h-16 w-auto" />
+              <img src={logoFooter} alt="A Moderna Serviços" className="h-20 w-auto" />
               <span className="pb-1 text-xs text-footer-foreground/70">Desde 1974</span>
             </div>
             <p className="mt-5 text-sm leading-relaxed text-footer-foreground/80">
