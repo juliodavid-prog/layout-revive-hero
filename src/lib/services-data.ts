@@ -179,6 +179,24 @@ export const services: Service[] = [
     applications:
       "Tanques de combustível, insumos químicos, silos e reservatórios petroquímicos.",
   },
+  {
+    slug: "hidrojateamento",
+    img: hidrojateamento,
+    title: "Hidrojateamento de Alta e Ultra Pressão",
+    desc: "Desobstrução, limpeza pesada e remoção de incrustações severas em tubulações e superfícies usando apenas o poder da água sob alta pressão.",
+    heroTitle:
+      "Hidrojateamento de Alta e Ultra Pressão: Potência e Precisão Sem Danificar Suas Estruturas",
+    fullDesc:
+      "O hidrojateamento é uma das técnicas mais eficientes e sustentáveis para desobstrução de redes e limpeza pesada de superfícies industriais e urbanas. Utilizando apenas água comprimida em altíssima pressão, o sistema remove incrustações severas, tintas, óleos e detritos sem a necessidade de produtos químicos agressivos ou métodos destrutivos. Nossos equipamentos trabalham com pressões ajustáveis para atender desde limpezas delicadas até as incrustações mais rígidas em tubulações de grande porte e superfícies metálicas ou de concreto.",
+    differentials: [
+      "Econômico e ecológico: utiliza apenas água, sem reagentes químicos poluentes",
+      "Preservação de estruturas: limpa com máxima eficiência sem danificar tubulação ou piso",
+      "Alta capacidade de desobstrução: remove raízes, gordura petrificada, cimento e calcificações",
+      "Versatilidade operacional: bicos especiais que navegam por curvas e longas extensões de rede",
+    ],
+    applications:
+      "Limpeza e desobstrução de redes de esgoto e águas pluviais; preparação de superfícies para pintura industrial e remoção de graxas/tintas; decapagem e limpeza interna de tubulações, caldeiras e permutadores; higienização de canaletas, caixas e galerias subterrâneas.",
+  },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
