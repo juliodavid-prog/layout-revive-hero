@@ -130,7 +130,7 @@ function ServiceDetail() {
             Nossos <span style={{ color: "var(--brand-lime)" }}>diferenciais</span>
           </h2>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-            {service.differentials.map((d) => (
+            {service.differentials.map((d: string) => (
               <li
                 key={d}
                 className="flex items-start gap-3 rounded-2xl border border-border bg-card p-5 shadow-sm"
