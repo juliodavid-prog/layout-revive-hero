@@ -37,54 +37,6 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const services = [
-  {
-    img: realDesentup.url,
-    title: "Desentupimento e Desobstrução",
-    desc: "Entupiu? Não quebre pisos nem paredes antes de falar com a gente.",
-  },
-  {
-    img: realInundacao.url,
-    title: "Esgotamentos de inundações, lama e lagoas",
-    desc: "Chuvas fortes, vazamentos ou acidentes podem causar inundações desastrosas, gerando lama e risco à saúde.",
-  },
-  {
-    img: realLavagem.url,
-    title: "Lavagem de galpões, pisos industriais e vias",
-    desc: "Usamos caminhões com alto vácuo e hidrojateamento para lavar e sugar os resíduos ao mesmo tempo.",
-  },
-  {
-    img: realGordura.url,
-    title: "Limpeza de caixas de gordura industriais",
-    desc: "A caixa de gordura protege seu encanamento, mas quando fica cheia, o pesadelo começa.",
-  },
-  {
-    img: realFossa.url,
-    title: "Limpeza de fossa séptica e sumidouro",
-    desc: "Realizamos o esgotamento total com caminhões de super vácuo, transportando os resíduos com total segurança.",
-  },
-  {
-    img: realTecnica.url,
-    title: "Limpeza técnica industrial",
-    desc: "Limpeza de estruturas complexas, garantindo que sua produção volte a operar com eficiência máxima.",
-  },
-  {
-    img: s8,
-    title: "Transporte de resíduos e efluentes",
-    desc: "Nossos caminhões-tanque hermeticamente fechados isolam a carga, garantindo um transporte zero vazamento do seu endereço até o local de descarte final autorizado.",
-  },
-  {
-    img: s9,
-    title: "Limpeza e desinfecção de reservatórios e caixas d'água",
-    desc: "Nossos técnicos certificados (NR 33 e NR 35) realizam a desinfecção profunda e segura das suas caixas d'água e cisternas.",
-  },
-  {
-    img: s10,
-    title: "Limpeza de tanques industriais",
-    desc: "Entramos em espaços confinados (NR 33) equipados com todos os EPIs necessários e tecnologia de hidrojateamento para devolver seu tanque às condições originais.",
-  },
-];
-
 const features = [
   {
     icon: Wrench,
